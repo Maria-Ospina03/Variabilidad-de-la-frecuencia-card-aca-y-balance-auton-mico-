@@ -38,6 +38,16 @@ Debido a que la regulación del corazón es un proceso complejo y no lineal, se 
 ### Parte C
 
 ![Diagrama de poincaré](Poincare.jpeg)
+
+El análisis de los diagramas de Poincaré permitió evaluar la variabilidad de la frecuencia cardíaca (HRV) en los dos segmentos registrados. En esta representación, cada punto relaciona un intervalo R-R con el siguiente, permitiendo observar la dinámica autonómica del corazón mediante los parámetros SD1 y SD2.
+
+En el Segmento 1, correspondiente al estado de reposo, se observó una nube de puntos más dispersa, con valores de SD1 = 88.1 ms y SD2 = 163.0 ms. Esto indica una mayor variabilidad cardíaca y una mayor influencia de la actividad parasimpática, característica de un estado fisiológico relajado.
+
+En el Segmento 2, asociado a la lectura en voz alta, la distribución de puntos fue más compacta y alineada con la línea identidad. El valor de SD1 disminuyó a 53.0 ms, mientras que SD2 se mantuvo similar (156.9 ms), lo que sugiere una reducción de la variabilidad de corto plazo y un aumento relativo de la actividad simpática debido a la demanda cognitiva de la tarea.
+
+En general, los resultados muestran que durante el reposo existe una mayor variabilidad cardíaca, mientras que la lectura en voz alta produce una respuesta autonómica más regulada y estable.
+
+
 ### Análisis de resultados y conclusiones
 Coeficientes de la Función de Transferencia H(z)
 |Numerador (b)     |Denominador (a)     |    
@@ -66,19 +76,17 @@ Durante el reposo, se registró una Media R-R de 969.26 ms, equivalente a una fr
 Segmento 2: Actividad de Lectura (Verbalización)
 El acto de leer en voz alta actuó como un perturbador del equilibrio autonómico, elevando la frecuencia cardíaca media a 70.7 BPM y reduciendo el intervalo R-R promedio a 848.62 ms. Este incremento se debe a la demanda metabólica y la inhibición vagal necesaria para la verbalización. El dato más revelador es el colapso del SD1 a 53.03 ms y el aumento drástico del CSI a 2.9593. Según los hallazgos de Toichi et al. (1997), un aumento en la relación SD2/SD1 (CSI) es la medida más fiable de activación simpática. Visualmente, el diagrama de Poincaré de este segmento muestra una nube de puntos más alargada y estrecha a lo largo de la línea de identidad, lo que demuestra una menor variabilidad latido a latido y una mayor rigidez en el ritmo cardíaco debido a la activación del SNS.
 
+El diagrama de Poincaré evidenció diferencias en la dinámica de la variabilidad cardíaca entre ambos segmentos analizados.
+Durante el segmento de reposo se observó una mayor dispersión transversal de la nube de puntos (SD1 = 88.1 ms), indicando una mayor variabilidad de corto plazo y predominio de actividad parasimpática.
+En contraste, el segmento correspondiente a la lectura en voz alta presentó una distribución más compacta y alineada con la línea identidad, junto con una disminución de SD1 (53.0 ms), lo que sugiere una reducción de la modulación vagal y una mayor regularidad del ritmo cardíaco asociada a activación cognitiva y simpática moderada.
+
+Los valores de SD2 se mantuvieron relativamente similares entre segmentos, indicando que la variabilidad global del sistema cardiovascular no sufrió cambios drásticos.
+
 ### Referencias
 1. Toichi, M., et al. (1997). A new method of assessing cardiac autonomic function and its comparison with spectral analysis and coefficient of variation of R–R interval. Journal of the Autonomic Nervous System.
 2. Veloza, L., et al. (2019). Variabilidad de la frecuencia cardiaca como factor predictor de las enfermedades cardiovasculares. Revista Colombiana de Cardiología.
 3. Cleveland Clinic. (2022). Sympathetic Nervous System (SNS): What It Is & Function.
 4. Universidad Militar Nueva Granada. (2025). Guía de Laboratorio 5: Variabilidad de la Frecuencia Cardíaca (HRV) y balance autonómico.
 5. Paiva, E. (Medizi). Fisiología Cardíaca: Regulación del bombeo cardíaco y Sistema Eléctrico (Transmisiones de YouTube).
-
-```python
-
-```
-
-
-
-
 
 </div>
