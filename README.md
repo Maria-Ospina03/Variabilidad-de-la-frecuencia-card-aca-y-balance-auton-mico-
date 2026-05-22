@@ -30,6 +30,11 @@ Debido a que la regulación del corazón es un proceso complejo y no lineal, se 
 ![Diagrama de flujo](Diagrama(1).png)
 
 ### Parte B
+
+Para la captura de la señal se uso el sensor ad8232 colocando sus electrodos en las derivaciones V1, V2 y V3 como se muestra en siguiente esquema:
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/5907569d-a170-4d38-93a0-609218c5c6f2" />
+
+
  Para obtener datos fiables, la señal ECG fue capturada a una frecuencia de muestreo de 1000 Hz, lo cual es esencial para una detección precisa de los picos R en estudios de HRV. El filtrado digital se realizó mediante un filtro IIR Butterworth pasabanda (5-15 Hz). Este diseño es útil porque:
 - Elimina el offset de DC y el ruido de baja frecuencia causado por la respiración y el movimiento de los electrodos.
 - Atenúa el ruido de alta frecuencia y la interferencia de la red eléctrica (60 Hz).
