@@ -27,7 +27,7 @@ Debido a que la regulación del corazón es un proceso complejo y no lineal, se 
 Índices de Toichi (CVI y CSI): Para cuantificar estas funciones de forma independiente, se utilizan el Cardiac Vagal Index (CVI), calculado como log 
 10 (SD1⋅SD2), y el Cardiac Sympathetic Index (CSI), que es la relación SD2/SD1.
 
-![Diagrama de flujo](Diagramaa.png)
+![Diagrama de flujo](Diagrama(1).png)
 
 ### Parte B
  Para obtener datos fiables, la señal ECG fue capturada a una frecuencia de muestreo de 1000 Hz, lo cual es esencial para una detección precisa de los picos R en estudios de HRV. El filtrado digital se realizó mediante un filtro IIR Butterworth pasabanda (5-15 Hz). Este diseño es útil porque:
